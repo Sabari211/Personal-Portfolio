@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/48184cd7c9.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="header">
+        <!-- Navbar start -->
+        <div class="container">
+            <nav>
+                <h1 class="logo">Sabarinathan J B</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas"onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text" >
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Sabarinathan J B</span><br> From Madurai</h1>
+            </div>
+    
+        </div>
+        <!-- Navbar end -->
+    </div>
+    <!-- header end -->
+     <!-- About start -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="Images/user.png" alt="">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! I'm Sabarinathan, a passionate Front-End Developer with a keen eye for design and a knack for creating seamless user experiences. With a solid foundation in HTML, CSS, and JavaScript, I specialize in crafting visually appealing and highly functional websites and applications.<br>Let’s connect and build something amazing together!<br>Feel free to adjust any details or add personal touches to better fit Sabarinathan’s style and experience!</p>
+                    <div class="tab_titles">
+                        <p class="tab_links active_links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab_links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Education</p>
+                        <p class="tab_links" onclick="opentab('certificate')">Certification</p>
+
+                    </div>
+                    <div class="tab_contents active_tab " id="Skills">
+                        <ul>
+                            <li><span>Web Development </span><br>Proficient in HTML, CSS, and JavaScript, with hands-on experience in creating responsive and visually appealing web pages.</li>
+                            <li><span>Frameworks & Libraries </span><br>Experienced with Bootstrap for streamlined UI design and ReactJS for building dynamic, component-based user interfaces.</li>
+                            <li><span>Programming </span><br>Solid foundational knowledge in Python, adept at leveraging its capabilities for various applications.</li>            
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>I am </span>Fresher</li>
+                            <li><span>Enthusiastic Learner</span><br>Recently completed training in web development technologies, including HTML, CSS, and JavaScript, and excited to apply these skills in real-world projects.</li>
+                            <li><span>Hands-On with Frameworks</span><br>Gained practical experience with Bootstrap and ReactJS, and eager to leverage these tools to create modern, responsive web applications</li>
+                            <li><span>Python Basics</span><br>Possess a strong foundation in Python, ready to tackle coding challenges and continuously develop programming expertise.</li>             
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2024-Pass Out</span><br>The Madura College (Autonomus)</li>
+                            <li><span>2020</span><br>VHN Higher Secondary School</li>
+                            <li><span>2018</span><br>BMS Vidhyalayam Matriculation High School</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="certificate">
+                        <ul>
+                            <li><span>Novitech R&D Private Ltd</span><br>Certificate of completion Full stack Development in 2024 </li>
+                            <li><span>ECPPP by ETI</span><br>Certified Application Developer-Python developer</li>
+                            <li><span>SLA Institute</span><br>Certificate of Participation in three day webinar on Data Science</li>
+                            <li><span>Nexus info (EDUXEL)</span><br>Internship Completion Certificate 1 Month internship june17-july17 2024 in the field of web development</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+     <!--Services  -->
+     <div id="Services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FrontEnd Development</h2>
+                    <p>
+                        <b>Custom Website Development:</b> Tailored websites designed for performance and aesthetics.<br>
+                        <b>Responsive Design:</b> Ensuring a flawless experience across all devices and screen sizes.<br>
+                        <b>JavaScript & Interactivity:</b> Implementing dynamic features and interactive elements.<br>
+                        <b>Optimization:</b> Enhancing site speed and efficiency for a smooth user experience.<br> 
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>React js  Developer</h2>
+                    <p><b>Application Development:</b> Building high-performance, scalable web applications using React.js.<br>
+                        <b>Design & Integration:</b> Creating reusable components and integrating them seamlessly into your project.<br>
+                        <b>State Management:</b> Implementing efficient state management solutions with tools like Redux or Context API.<br>
+                        <b>Optimization:</b> Enhancing application speed and responsiveness through advanced React techniques.<br>
+                       <b>API Integration:</b> Connecting your React app with external APIs for dynamic data handling and interaction.<br>
+                        </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Python Apllication Developer</h2>
+                    <p>
+                        <b>Custom Python Development:</b> Building robust and scalable applications tailored to your needs.<br>
+                            <b>Web Development with Django/Flask:</b> Creating dynamic, data-driven web applications using popular frameworks.<br>
+                            <b>API Development:</b> Designing and implementing RESTful APIs to integrate with various applications and services.
+                            <b>Automation & Scripting:</b> Automating repetitive tasks and processes to improve efficiency and productivity
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- portfolio  -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="Images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Clone Web page</h3>
+                        <p>
+                            <b>Streamlined User Interface:</b> Designed an intuitive and visually appealing UI that mimics the Netflix experience, ensuring seamless navigation and user engagement.<br>
+                            <b>Dynamic Content Management:</b> Implemented a dynamic content system to display movies and TV shows with real-time updates and filtering options.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>
+                          <b> Real-Time Data Integration: </b> to a weather API to provide accurate and up-to-date weather information, including current conditions and forecasts.</br>
+                            <b>Interactive UI:</b> Created an engaging and user-friendly interface with features like location-based weather updates and dynamic visualizations.
+                            <h3 style="margin-top: 2px;">To Do List App</h3>
+                            <p><b>Task Management Features:</b> Developed functionality for creating, editing, and organizing tasks with options for setting deadlines and priorities.<br>
+                            <b>User-Friendly Interface:</b> Designed a clean and intuitive interface with easy-to-use task management and real-time updates.</p>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Amazon Clone Web page</h3>
+                        <p>
+                            <b>E-Commerce Functionality:</b> Developed a fully functional online shopping experience with features such as product listings, shopping cart, and secure checkout process.<br>
+                            <b>User Authentication & Profiles:</b> Implemented a robust user authentication system allowing customers to create accounts, manage their profiles, and track orders.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+ <!-- contact -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sabarinathanbasker2103@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9344154764</p>
+                <div class="social_icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook fb"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter tw"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram insta"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin li"></i></a>
+                </div>
+                <a href="Images/Sabarinathan J B_resume.pdf_edited.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact_right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Made By <i class="fa-solid fa-heart heart"></i> Sabarinathan J B</p>
+    </div>
+  </div>
+
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab_links");
+    var tabcontents=document.getElementsByClassName("tab_contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active_links")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active_tab")
+        }
+        event.currentTarget.classList.add("active_links");
+        document.getElementById(tabname).classList.add("active_tab") 
+    }
+ </script>  
+ <script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+ </script> 
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzullsLbnzaRs7A6LsGYY8oxjJHdo-2HjfhT2ic5mu3qcvy9lx4CPy_6ZCvH11_Lf6I9Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent Successfully "
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
